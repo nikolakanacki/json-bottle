@@ -1,0 +1,8 @@
+{
+  "templates": {
+    "theme": "lumen"
+  },
+  "plugins": [
+    "node_modules/jsdoc-babel"
+  ]
+}

@@ -1,0 +1,22 @@
+---
+extends: airbnb
+rules:
+  no-underscore-dangle: 0
+  no-plusplus: 0
+  no-multi-assign: 0
+  no-nested-ternary: 0
+  no-unneeded-ternary: 0
+  no-param-reassign: 0
+  no-unused-expressions:
+    - error
+    - allowShortCircuit: true
+  max-len:
+    - error
+    - ignoreComments: true
+  comma-dangle:
+    - error
+    - arrays: always-multiline
+      objects: always-multiline
+      imports: always-multiline
+      exports: always-multiline
+      functions: ignore
